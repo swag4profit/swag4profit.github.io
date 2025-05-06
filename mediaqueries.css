@@ -49,6 +49,11 @@
     .about-containers {
         margin-top: 0;
     }
+
+    .custom-video-container {
+        width: 580px;
+        height: 326.25px;
+      }
 }
 
 @media screen and (max-width: 600px) {
@@ -135,5 +140,12 @@
         left: 50%;
         transform: translate(-50%, -50%);
       }
+
+    .custom-video-container {
+    width: 350px;
+    height: 196.88px;
+    }
+
+    
 }
 

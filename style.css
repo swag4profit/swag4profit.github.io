@@ -209,6 +209,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 15px;
     /* margin: 20px; */
 }
 
@@ -247,6 +248,7 @@ section {
 /* About Section */
 #about {
     position: relative;
+
 }
 
 .about-containers {
@@ -323,6 +325,43 @@ video {
     width: 620.22px;
 }
 
+.custom-video-container {
+    position: relative;
+    width: 700px;
+    height: 393.75px;
+    margin: 0 auto;
+  }
+  
+  #custom-youtube-player {
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+  }
+  
+  #prev-video-btn { left: 10px; }
+  #next-video-btn { right: 10px; }
+  
+  .video-btn-container {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  
+
 /* Experience Section */
 
 #experience {
@@ -332,7 +371,7 @@ video {
 .experience-sub-title {
     color: rgb(85, 85, 85);
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.3rem;
     margin-bottom: 2rem;
 }
 
@@ -358,7 +397,14 @@ article {
     gap: 0.5rem;
 }
 
-article, .icon {
+.article-container p {
+    font-size: 0.6rem;
+}
+
+article .icon {
+    cursor: default;
+}
+.details-container .icon {
     cursor: default;
 }
 
