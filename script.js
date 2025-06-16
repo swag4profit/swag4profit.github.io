@@ -15,7 +15,9 @@ if (!window.YT) {
   
   let customPlayer;
   let currentVideoIndex = 0;
-  const videoIds = ['ljPNo1dMsqI', 'xhVKf5-X4zA', 'ESybMXb5Q5E', 'moGwPcCDcXk', 'HoVyncyIYc0']; // Add your video IDs
+  const videoIds = ['ljPNo1dMsqI', 'xhVKf5-X4zA', 'ESybMXb5Q5E', 'moGwPcCDcXk', 'HoVyncyIYc0',
+                    'd8OJQb3IRFU', '3wvxC-8ONn4', '602ft-ARMeI', '2DHGUn-laAE'
+  ]; // Add your video IDs
   
   window.onYouTubeIframeAPIReady = function() {
     player = new YT.Player('custom-youtube-player', {
