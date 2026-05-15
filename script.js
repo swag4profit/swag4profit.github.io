@@ -17,7 +17,7 @@ if (!window.YT) {
   let currentVideoIndex = 0;
   const videoIds = ['ljPNo1dMsqI', 'xhVKf5-X4zA', 'ESybMXb5Q5E', 'moGwPcCDcXk', 'HoVyncyIYc0',
                     'JykMhjttjxI', 'd1O_omaNdlM', 'VtcVFnlXYNM', 'fStlUlhew0A'
-  ]; // Add your video IDs
+  ]; // Add your video ID
   
   window.onYouTubeIframeAPIReady = function() {
     player = new YT.Player('custom-youtube-player', {
